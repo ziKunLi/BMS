@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+    <package name="reader" extends="struts-default">
+           <action name="reader_*" method="{1}" class="control.ReaderController"> 
+               <result name="success">/reader.jsp</result>
+               <result name="addQuery">/readerAdd.jsp</result>
+               <result name="ok">/readerOk.jsp</result>
+               <result name="error">/error.jsp</result>
+           </action>
+   </package>
+</struts>  

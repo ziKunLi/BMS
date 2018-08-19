@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+	<include file="xml/manager.xml"/>
+	<include file="xml/library.xml"/>
+	<include file="xml/parameter.xml"/>
+	<include file="xml/book.xml"/>
+	<include file="xml/cardType.xml"/>
+	<include file="xml/bookcase.xml"/>
+	<include file="xml/bookType.xml"/>
+	<include file="xml/reader.xml"/>
+	<include file="xml/publishing.xml"/>
+	<include file="xml/borrow.xml"/>
+    <constant name="struts.enable.DynamicMethodInvocation" value="false"></constant>
+</struts>    

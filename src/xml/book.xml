@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+    <package name="book" extends="struts-default">
+           <action name="book_*" method="{1}" class="control.BookController"> 
+               <result name="success">/book.jsp</result>
+               <result name="query">/bookQuery.jsp</result>
+               <result name="canAdd">/bookAdd.jsp</result>
+               <result name="ok">/bookOk.jsp</result>
+               <result name="error">/error.jsp</result>
+           </action>
+   </package>
+</struts>
